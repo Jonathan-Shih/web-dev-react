@@ -1,0 +1,175 @@
+body {
+    background-color: black;
+    margin: auto;
+    font-family: "Helvetica Neue";
+}
+
+.a, .main-post{
+    width: 600px;
+    margin: auto;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.main {
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sub{
+    color: dimgrey;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main, .sub{
+    padding-left: 16px;
+}
+.profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.main-post {
+    display: flex;
+    padding-bottom: 0px;
+}
+
+.main-post .profile-pic {
+    margin-left: 16px;
+}
+
+.c-d-e-f-g {
+    padding-left: 12px;
+    width: 506px;
+}
+
+.c, .c-d-e-f-g p {
+    margin-top: 0px;
+    font-size: 15px;
+    color: white;
+}
+
+.c-d-e-f-g p{
+    width: 506px;
+    margin-bottom: 12px;
+}
+
+.c-d-e-f-g .c, .f p{
+    margin-bottom: 0px;
+}
+
+.c a, .f .f-sub {
+    color: dimgrey;
+}
+
+.e .background {
+    width: 504px;
+    height: 264px;
+
+}
+
+.e {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.f {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+}
+
+.f p{
+    padding: 12px;
+    width: 494px;
+}
+
+.f .f-sub {
+    padding-top: 0px;
+}
+
+.link {
+    display: flex;
+    padding-left: 12px;
+}
+
+.link .icon {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.link p {
+    color:dimgrey;
+    padding: 0px;
+    padding-left: 5px;
+    padding-bottom: 12px;
+}
+
+.f {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.g {
+    display: flex;
+    width: 506px;
+    height: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display:table;
+}
+
+.g-col {
+    width: 25%;
+    color: dimgrey;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.comment-icon, .retuit-icon, .like-icon, .share-icon {
+    height: 20px;
+    padding-right: 12px;
+    position: relative;
+}
+
+.comment-icon {
+    top: 4px;
+}
+
+.retuit-icon {
+    top: 5px;
+}
+
+.like-icon {
+    top: 4px;
+}
+
+.share-icon {
+    top: 3px;
+}
+
+.comment {
+
+}
