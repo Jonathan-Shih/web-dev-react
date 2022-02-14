@@ -135,3 +135,8 @@ body {
 .booster-img {
     width:150px;
 }
+
+.b a {
+    text-decoration: none;
+    color: inherit;
+}
