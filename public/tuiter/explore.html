@@ -1,89 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
     <link href="explore-styles.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="a">
-    <div class="searchbar">
-        <img class= "search" src="assets/search.png"/>
-        <input class="top_search" type="text" id="searchbar" placeholder= "Search Tuiter"><br><br>
+<div class="row">
+    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3">
+        <div class="row">
+            <div class="col-xl-6 col-lg-7 col-md-7 col-sm-7">
+            </div>
+            <div class="col-xl-6 col-lg-5 col-md-5 col-sm-5">
+                <div class="list-group">
+                    <a href=# class="list-group-item list-group-item-action">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action">
+                        <i class="fa fa-home"></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> Home</div>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action active">
+                        <i class="fa fa-hashtag"></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> Explore</div>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action">
+                        <i class="fa fa-bell"></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> Notifications</div>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action">
+                        <i class="fa fa-envelope"></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> Messages</div>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action">
+                        <i class="fa fa-bookmark"></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> Bookmarks</div>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action">
+                        <i class="fa fa-list"></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> Lists</div>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action">
+                        <i class="fa fa-user"></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> Profile</div>
+                    </a>
+                    <a href=# class="list-group-item list-group-item-action">
+                        <span class="fa-stack">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-ellipsis-h fa-inverse fa-stack-1x"></i>
+                        </span></i>
+                        <div class="d-xl-inline d-lg-none d-md-none d-sm-none"> More</div>
+                    </a>
+                </div>
+                <button class="tweet" type="button">Tweet</button>
+            </div>
+        </div>
     </div>
-    <div class="spacer"></div>
-    <a href="explore-settings.html" class="settings"><img class="gear" src="assets/gear.png"/></a>
+    <div class="col-xl-9 col-lg-10 col-md-9 col-sm-9">
+        <div class="row">
+            <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10 text-center">
+                <div class="top-bar">
+                    <i class="fa fa-search"></i>
+                    <input class="top_search" type="text" id="searchbar" placeholder="Search Tuiter"><br><br>
+                    <i class="fa fa-cog fa-25px" style="color: #0e6dfd"></i>
+                </div>
+                <ul class="nav nav-tabs flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item d-xl-block d-lg-block d-md-block d-sm-none">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
+                <div class="main-img">
+                    <img class="spacex" src="assets/spacex.jpg">
+                    <h2 class="position-absolute bottom-0 ps-3">SpaceX's Starship</h2>
+                </div>
+                <div class="posts">
+                    <div class="d">
+                        <div class="d-text">
+                            <c class="sub-text grey">Web Development</c>
+                            <br>
+                            <c class="title">ReactJS
+                                <c class="grey">
+                                <span class="fa-stack">
+                                    <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                    <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                </span> - 2h
+                                </c>
+                            </c>
+                            <br>
+                            <c class="main-text">React.js is a component based front end library that makes it very easy
+                                to build Single Page Applications or SPAs
+                            </c>
+                        </div>
+                        <div class="image">
+                            <img class="react-img" src="assets/react.png"/>
+                        </div>
+                    </div>
+                    <div class="d">
+                        <div class="d-text">
+                            <c class="title">JavaScript
+                                <c class="grey">
+                                <span class="fa-stack">
+                                    <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                    <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                </span> - 2h
+                                </c>
+                            </c>
+                            <br>
+                            <c class="main-text">JavaScript is programming language that can run on browsers as well as
+                                desktops
+                                <c class="grey"> - 2h</c>
+                            </c>
+                            <br>
+                            <c class="sub-text sub-bottom grey">123K Tweets</c>
+                        </div>
+                        <div class="image">
+                            <img class="javascript-img" src="assets/javascript.png"/>
+                        </div>
+                    </div>
+                    <div class="d d-small">
+                        <div class="d-text">
+                            <c class="sub-text grey">Web Development</c>
+                            <br>
+                            <c class="title">jQuery</c>
+                            <br>
+                            <c class="sub-text grey">123K Tweets</c>
+                        </div>
+                        <div class="image">
+                            <img class="jquery-img" src="assets/jquery.png"/>
+                        </div>
+                    </div>
+                    <div class="d d-small d-bottom">
+                        <div class="d-text">
+                            <c class="sub-text grey">Web Development</c>
+                            <br>
+                            <c class="title">NodeJS
+                                <c class="grey">
+                                <span class="fa-stack">
+                                    <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                    <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                </span> - 2h
+                                </c>
+                            </c>
+                            <br>
+                            <c class="sub-text grey">123K Tweets</c>
+                        </div>
+                        <div class="image">
+                            <img class="nodejs-img" src="assets/nodejs.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-5 col-md-2 col-sm-2 text-start">
+                <div class="row">
+                    <div class="col-7 col-lg-9 d-xl-block d-lg-block d-md-none d-sm-none">
+                        <div class="list-group">
+                            <div class="list-group-item">
+                                <b> Who to follow</b>
+                            </div>
+                            <div class="list-group-item">
+                                <span><div class="image"><img src="assets/java.png"></div></span>
+                                <div class="account">
+                                    <b>Java</b>
+                                    <span class="fa-stack">
+                                            <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                            <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="br"> </span>
+                                    <c>@java</c>
+                                </div>
+                                <span><button class="follow position-relative" type="button">Follow</button></span>
+                            </div>
+                            <div class="list-group-item">
+                                <span><div class="image"><img src="assets/relativity.png"></div></span>
+                                <div class="account">
+                                    <b>Relativity Space</b>
+                                    <span class="fa-stack">
+                                            <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                            <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="br"> </span>
+                                    <c>@relativityspace</c>
+                                </div>
+                                <span><button class="follow position-relative" type="button">Follow</button></span>
+                            </div>
+                            <div class="list-group-item">
+                                <span><div class="image"><img src="assets/virgin.png"></div></span>
+                                <div class="account">
+                                    <b>Virgin Galactic</b>
+                                    <span class="fa-stack">
+                                            <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                            <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="br"> </span>
+                                    <c>@virgingalactic</c>
+                                </div>
+                                <span><button class="follow position-relative" type="button">Follow</button></span>
+                            </div>
+                            <div class="list-group-item">
+                                <span><div class="image"><img src="assets/nasa.png"></div></span>
+                                <div class="account">
+                                    <b>NASA</b>
+                                    <span class="fa-stack">
+                                            <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                            <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="br"> </span>
+                                    <c>@nasa</c>
+                                </div>
+                                <span><button class="follow position-relative" type="button">Follow</button></span>
+                            </div>
+                            <div class="list-group-item">
+                                <span><div class="image"><img src="assets/tesla.png"></div></span>
+                                <div class="account">
+                                    <b>Tesla</b>
+                                    <span class="fa-stack">
+                                            <i class="fas fa-certificate fa-stack-2x" style="color: black"></i>
+                                            <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="br"> </span>
+                                    <c>@tesla</c>
+                                </div>
+                                <span><button class="follow position-relative" type="button">Follow</button></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-lg-3 col-md-12 col-sm-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-<div class="b">
-    <div class="for-you grid-col-onesix">
-        <a href="#">For you</a>
-    </div>
-    <div class="trending grid-col-onesix">
-        <a href="#">Trending</a>
-    </div>
-    <div class="covid grid-col-onesix">
-        <a href="#">COVID-19</a>
-    </div>
-    <div class="news grid-col-onesix">
-        <a href="#">News</a>
-    </div>
-    <div class="sports grid-col-onesix">
-        <a href="#">Sports</a>
-    </div>
-    <div class="enter grid-col-onesix">
-        <a href="#">Entertainment</a>
-    </div>
-</div>
-
-<div class="c">
-    <p class="sub sub-top">Trending in Science</p>
-    <p class="main">Starship</p>
-    <p class="sub sub-bot">55.5K Tweets</p>
-</div>
-
-<div class="c">
-    <p class="sub sub-top">Sports &#183 Trending</p>
-    <p class="main">Joe Rogan</p>
-    <p class="sub sub-bot">5,218 Tweets</p>
-</div>
-
-<div class="d">
-    <div class="d-text">
-        <p class="sub sub-top">The New York Times <a>&#183 Yesterday</a></p>
-        <p class="main">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
-    </div>
-    <div class="image">
-        <img class= "news-img" src="assets/news.png"/>
-    </div>
-</div>
-
-
-<div class="e">
-    <div class="e-text">
-        <p class="sub sub-top">COVID-19 &#183 Live</p>
-        <p class="main">COVID-19: News and updates for Massachusetts</p>
-    </div>
-    <div class="image">
-        <img class= "news-img" src="assets/covid.png"/>
-    </div>
-</div>
-
-<div class="d">
-    <div class="d-text">
-        <p class="sub sub-top">Bloomberg Opinion <a>&#183 Yesterday</a></p>
-        <p class="main">Thinking about getting a booster? Read this first.</p>
-    </div>
-    <div class="image">
-        <img class= "booster-img" src="assets/booster.png"/>
-    </div>
-</div>
-
-<div class="c">
-    <p class="sub sub-top">Trending in United States</p>
-    <p class="main">Wonder Bread</p>
-    <p class="sub sub-bot">1,259 Tweets</p>
-</div>
-
 </body>
+<link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </html>
