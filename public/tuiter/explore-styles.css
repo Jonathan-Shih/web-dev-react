@@ -12,7 +12,7 @@ body {
 
 .top_search {
     border-radius: 50px;
-    width: 580px;
+    width: 90%;
     height: 38px;
     border-style: solid;
     border-color: darkgray;
@@ -21,6 +21,7 @@ body {
     background-color: transparent;
     position: relative;
     margin-right: auto;
+    vertical-align: center;
 }
 
 
