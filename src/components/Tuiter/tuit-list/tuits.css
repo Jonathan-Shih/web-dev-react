@@ -1,0 +1,60 @@
+.profileImage {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.tuit-list {
+    display:flex;
+}
+
+.f-bold {
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.f-grey {
+    color: grey;
+}
+
+.linked-content {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+
+.linked-content img {
+    width:100%;
+}
+
+.no-display {
+    display: none;
+}
+
+.stats .far, .stats .fas {
+    padding-right: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fa-check {
+    color: black;
+}
+
+.whats-happening-text {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+}
+
+.whats-happening {
+    padding-left: 15px;
+}
+

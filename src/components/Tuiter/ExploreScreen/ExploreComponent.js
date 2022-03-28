@@ -26,7 +26,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div className="main-img">
-                <img className="spacex" src="tuiter/assets/spacex.jpg"/>
+                <img className="spacex" src="../tuiter/assets/spacex.jpg"/>
                 <h2 className="position-absolute bottom-0 ps-3 white">SpaceX's Starship</h2>
             </div>
             {PostSummaryList()}

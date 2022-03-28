@@ -9,7 +9,7 @@ const PostSummaryItem = (
         }
     }) => {
     return (
-        <li className="list-group-item d">
+        <li className="list-group-item d" key={post.topic}>
             <div className="d-text">
                 {topic(post)}
                 <c class="title">{post.userName}

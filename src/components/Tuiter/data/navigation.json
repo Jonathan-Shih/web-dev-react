@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Home",
+    "path": "",
+    "icon": "fa-home",
+    "active":  true
+  },
+  {
+    "name": "Explore",
+    "path": "explore",
+    "icon": "fa-hashtag",
+    "active":  false
+  },
+  {
+    "name": "Notifications",
+    "path": "",
+    "icon": "fa-bell",
+    "active":  false
+  },
+  {
+    "name": "Messages",
+    "path": "",
+    "icon": "fa-envelope",
+    "active":  false
+  },
+  {
+    "name": "Bookmarks",
+    "path": "",
+    "icon": "fa-bookmark",
+    "active":  false
+  },
+  {
+    "name": "Lists",
+    "path": "",
+    "icon": "fa-list",
+    "active":  false
+  },
+  {
+    "name": "Profile",
+    "path": "",
+    "icon": "fa-user",
+    "active":  false
+  },
+  {
+    "name": "More",
+    "path": "",
+    "icon": "fa-ellipsis-h",
+    "active":  false
+  }
+]
