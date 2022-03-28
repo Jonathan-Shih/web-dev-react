@@ -1,22 +1,20 @@
-
-
 import React from "react";
-import tabs from '../data/navigation.json';
+import navs from '../data/navigation.json';
 
-const navigationReducer = (state = tabs, action) => {
+const navigationReducer = (state = navs, action) => {
     switch (action.type) {
         case 'change-tab':
-            return state.map(tab => {
-                if(tab.name === action.tab.name) {
-                    tab.active = true;
-                    return tab;
+            return state.map(nav => {
+                if(nav.name === action.navItem.name) {
+                    nav.active = true;
+                    return nav;
                 } else {
-                    tab.active = false;
-                    return tab;
+                    nav.active = false;
+                    return nav;
                 }
             });
         default:
-            return tabs;
+            return navs;
     }
 };
 

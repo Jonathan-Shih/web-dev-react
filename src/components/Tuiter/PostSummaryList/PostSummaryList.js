@@ -3,11 +3,11 @@ import PostSummaryItem from "./PostSummaryItem.js";
 
 const PostSummaryList = () => {
     return (
-        <ul class="posts">
+        <ul className="posts">
             {
                 posts.map(post => {
                     return (
-                        <PostSummaryItem post={post}/>
+                        <PostSummaryItem post={post} key={post.title}/>
                     );
                 })
             }

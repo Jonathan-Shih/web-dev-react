@@ -12,16 +12,16 @@ const PostSummaryItem = (
         <li className="list-group-item d" key={post.topic}>
             <div className="d-text">
                 {topic(post)}
-                <c class="title">{post.userName}
-                    <c class="grey">
+                <span className="title">{post.userName}
+                    <span className="grey">
                         <span className="fa-stack white">
                             <i className="fas fa-certificate fa-stack-2x"></i>
                             <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                         </span>
-                        - {post.time}</c>
-                </c>
+                        - {post.time}</span>
+                </span>
                 <br></br>
-                <c className="main-text"> {post.title} </c>
+                <span className="main-text"> {post.title} </span>
             </div>
             <div className="image">
                 <img src={post.image} alt={post.topic}/>
@@ -34,7 +34,7 @@ const topic = (post) => {
     if (post.topic !== "") {
         return (
             <>
-                <c class="sub-text grey"> {post.topic} </c>
+                <span className="sub-text grey"> {post.topic} </span>
                 <br></br>
             </>
         );
